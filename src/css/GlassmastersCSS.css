@@ -1,50 +1,50 @@
-.saitContainer {
+.glassmastersContainer {
     display: grid;
     grid-template-columns:250px minmax(200px, 550px);
     grid-template-rows: auto auto;
     grid-template-areas:
         "logo text";
-    margin-top: 3%;
+    margin-top: 8em;
 }
 
 @media only screen and (max-width: 650px) {
-    .saitContainer {
+    .glassmastersContainer {
         grid-template-rows: auto auto;
         grid-template-columns: 25em;
         grid-template-areas:
         "logo"
         "text";
     }
-    .saitlogo {
+    .glassmasterslogo {
         margin-top: 5%;
         margin-bottom: 5%;
         margin-left: 25%;
     }
 }
 
-.saitlogo {
+.glassmasterslogo {
     grid-area: logo;
     width: 200px;
     height: 265px;
     border-radius: 25%;
 }
 
-.saitTextContainer {
+.glassmastersTextContainer {
     grid-area: text;
 }
 
-.saitTitle {
+.glassmastersTitle {
     color: darkgreen;
     font-size: 150%;
     font-weight: bold;
 }
 
-.gradDate {
+.startDate {
     color:midnightblue;
     font-size: 115%;
     font-weight: bold;
 }
 
-.saitBackground {
+.glassmastersBackground {
     font-size: 110%;
 }

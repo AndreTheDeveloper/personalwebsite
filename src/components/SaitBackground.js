@@ -12,7 +12,7 @@ class SaitBackground extends Component {
                         Southern Alberta Institute of Technology
                     </div>
                     <div className='gradDate'>
-                        Diploma in Information & Technology, earned in 2021
+                        Diploma in Information & Technology, Majoring in Software Development, earned in 2021
                     </div>
                     <br />
                     <div className='saitBackground'>

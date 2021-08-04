@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../css/backgroundCSS.css'
 import Sait from './SaitBackground'
+import Job from './GlassmastersBackground'
 
 class Background extends Component {
     render() {
@@ -10,7 +11,7 @@ class Background extends Component {
                     ---My Journey---
                 </div>
                 <Sait/>
-
+                <Job />
             </div>
         );
     }
