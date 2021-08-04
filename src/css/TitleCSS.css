@@ -4,8 +4,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: black;
-    height: 1000px;
+    background-image: url("../backgrounds/tempbackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    min-width: 31em;
 }
 
 .welcomeMssg {
@@ -13,7 +18,7 @@
     font-style: oblique;
     text-align: center;
     color: white;
-    font-size: 40px;
+    font-size: 275%;
     font-family: 'Dancing Script', cursive;
 }
 
@@ -22,6 +27,6 @@
     font-weight: bold;
     text-align: center;
     color: white;
-    font-size: 55px;
+    font-size: 340%;
     font-family: 'Hahmlet', serif;
 }
