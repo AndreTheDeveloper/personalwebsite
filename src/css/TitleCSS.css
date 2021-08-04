@@ -1,0 +1,27 @@
+
+.msgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    height: 1000px;
+}
+
+.welcomeMssg {
+    display: flex;
+    font-style: oblique;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.name {
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    font-family: 'Hahmlet', serif;
+}
