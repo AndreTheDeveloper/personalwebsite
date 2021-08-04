@@ -1,47 +1,12 @@
 .backgroundContainer {
-    margin-top: 5%;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
 .backgroundTitle {
+    margin-top: 5%;
     font-family: 'Hahmlet', serif;
     font-size: 225%;
     font-weight: bold;
-}
-
-.saitContainer {
-    display: grid;
-    grid-template-columns:250px minmax(200px, 550px);
-    grid-template-rows: 100px auto;
-    grid-template-areas:
-        "logo text";
-    margin-top: 2%;
-}
-
-.saitlogo {
-    grid-area: logo;
-    width: 200px;
-    height: 265px;
-    border-radius: 25%;
-}
-
-.saitTextContainer {
-    grid-area: text;
-}
-
-.saitTitle {
-    color: darkgreen;
-    font-size: 150%;
-}
-
-.gradDate {
-    color:midnightblue;
-    font-size: 115%;
-}
-
-.saitBackground {
-    font-size: 110%;
 }
