@@ -59,7 +59,7 @@ class Projects extends Component {
                             <br/>
                             <br/>
                             This simple application really took me by surprise by how much I would enjoy using
-                            Android Studios and to create interactive apps that I can use day-to-day.
+                            Android Studios to create interactive apps that I can use day-to-day.
                         </div>
                     </div>
                     <div className='project3'>
@@ -81,6 +81,11 @@ class Projects extends Component {
                             React really took me by surprise by how organized everything is and the lack of repetitive
                             code. I can make a banner once and use it for all of my pages. I have definitely grown a larger
                             interest for React and want to try and experiment with more complex projects.
+                            <br/>
+                            <br/>
+                            I also did not have much experience with CSS because I always thought my designs were
+                            terrible. However, with all the failures comes knowledge, and with enough failures, you can eventually
+                            become better, right?
                         </div>
                     </div>
 

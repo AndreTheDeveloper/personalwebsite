@@ -1,0 +1,48 @@
+.skillSetContainer {
+    margin-top: 3em;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 250px));
+    column-gap: 5em;
+}
+
+.skillSetMainTitle {
+    font-family: 'Hahmlet', serif;
+    font-size: 225%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.programmingContainer {
+    text-align: center;
+}
+
+.programmingTitle {
+    color: darkgreen;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.programmingText {
+    font-size: 110%;
+}
+
+.characterContainer {
+    text-align: center;
+}
+@media only screen and (max-width: 400px) {
+.characterContainer {
+    margin-top: 2em;
+}
+}
+
+.characterTitle {
+    color: darkgreen;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.characterText {
+    font-size: 110%;
+}

@@ -8,7 +8,7 @@ class Background extends Component {
         return (
             <div className='backgroundContainer'>
                 <div className='backgroundTitle'>
-                    ---My Journey---
+                    ---My Experiences---
                 </div>
                 <Sait/>
                 <Job />

@@ -4,6 +4,8 @@
     justify-content: center;
     grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
     column-gap: 5em;
+    margin-left: 10em;
+    margin-right: 10em;
 
 }
 
@@ -21,9 +23,11 @@
     }
     .project2 {
         grid-area: project2;
+        margin-top: 3em;
     }
     .project3 {
         grid-area: project3;
+        margin-top: 3em;
     }
 }
 
@@ -48,8 +52,9 @@
 }
 
 .projectText {
-
+    font-size: 110%;
 }
+
 
 .project1 {
 }
