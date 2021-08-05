@@ -4,7 +4,7 @@
     grid-template-rows: auto auto;
     grid-template-areas:
         "logo text";
-    margin-top: 3%;
+    margin-top: 4em;
 }
 
 @media only screen and (max-width: 650px) {

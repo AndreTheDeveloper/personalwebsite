@@ -1,0 +1,57 @@
+.projectsContainer {
+    margin-top: 4em;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 650px) {
+    .projectsContainer {
+        grid-template-rows: auto;
+        grid-template-columns: 25em;
+        grid-template-areas:
+        "project1"
+        "project2"
+        "project3";
+    }
+    .project1 {
+        grid-area: project1;
+    }
+    .project2 {
+        grid-area: project2;
+    }
+    .project3 {
+        grid-area: project3;
+    }
+}
+
+.projectsMainTitle {
+    font-family: 'Hahmlet', serif;
+    font-size: 225%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.individualProjectTitles {
+    color: darkgreen;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.subTitle {
+    color:midnightblue;
+    font-size: 115%;
+    font-weight: bold;
+}
+
+.project1 {
+}
+
+.project2 {
+}
+
+.project3 {
+}
