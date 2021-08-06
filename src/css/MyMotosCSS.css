@@ -1,0 +1,22 @@
+.motoMainContainer {
+    margin-top: 8em;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:minmax(200px, 550px);
+    text-align: center;
+
+}
+
+.motoMainTitle {
+    font-family: 'Hahmlet', serif;
+    font-size: 225%;
+    font-weight: bold;
+}
+
+.motos {
+    margin-top: 2em;
+    color:midnightblue;
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+}
