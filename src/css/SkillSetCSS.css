@@ -2,7 +2,7 @@
     margin-top: 3em;
     display: grid;
     justify-content: center;
-    grid-template-columns:repeat(auto-fit, minmax(200px, 250px));
+    grid-template-columns:repeat(auto-fit, minmax(200px, 200px));
     column-gap: 5em;
 }
 
@@ -30,11 +30,6 @@
 
 .characterContainer {
     text-align: center;
-}
-@media only screen and (max-width: 400px) {
-.characterContainer {
-    margin-top: 2em;
-}
 }
 
 .characterTitle {
