@@ -1,0 +1,54 @@
+.mainConnectContainer {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 10em;
+}
+
+.mainConnectTitle {
+    text-align: center;
+    margin-top: 3em;
+    font-family: 'Hahmlet', serif;
+    font-size: 225%;
+    font-weight: bold;
+}
+
+.connections {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 300px));
+    justify-content: center;
+    text-align: center;
+    grid-template-areas:
+    "github linkedin";
+}
+
+@media only screen and (max-width: 450px) {
+    .connections {
+        grid-template-areas:
+            "github"
+            "linkedin";
+    }
+    .linkedIn {
+        margin-top: 3em;
+    }
+}
+
+.gitHub {
+    color: darkgreen;
+    font-size: 115%;
+    font-weight: bold;
+    grid-area: github;
+}
+
+.linkedIn {
+    color: darkgreen;
+    font-size: 115%;
+    font-weight: bold;
+    grid-area: linkedin;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    border-radius: 25%;
+}
