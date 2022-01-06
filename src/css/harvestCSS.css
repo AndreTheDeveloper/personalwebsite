@@ -1,0 +1,50 @@
+.harvestContainer {
+    display: grid;
+    grid-template-columns:250px minmax(200px, 550px);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "logo text";
+    margin-top: 4em;
+}
+
+@media only screen and (max-width: 650px) {
+    .harvestContainer {
+        grid-template-rows: auto auto;
+        grid-template-columns: 25em;
+        grid-template-areas:
+        "logo"
+        "text";
+    }
+    .harvestLogo {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 25%;
+    }
+}
+
+.harvestLogo {
+    grid-area: logo;
+    width: 200px;
+    height: 265px;
+    border-radius: 25%;
+}
+
+.harvestTextContainer {
+    grid-area: text;
+}
+
+.harvestTitle {
+    color: darkgreen;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.secondaryTitle {
+    color:midnightblue;
+    font-size: 115%;
+    font-weight: bold;
+}
+
+.harvestBackground {
+    font-size: 110%;
+}
