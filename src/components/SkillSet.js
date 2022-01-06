@@ -16,14 +16,14 @@ class SkillSet extends Component {
                         <div className='programmingText'>
                             Java<br/>
                             JavaScript<br/>
-                            API<br/>
-                            MySQL<br/>
-                            SQLPlus<br/>
+                            SQL<br/>
                             CSS<br/>
                             SpringBoot<br/>
                             React<br/>
                             HTML<br/>
-
+                            MongoDB<br />
+                            Typescript<br />
+                            GraphQL<br />
                         </div>
                     </div>
                     <div className='characterContainer'>
