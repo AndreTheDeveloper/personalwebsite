@@ -18,7 +18,7 @@ class HarvestBuildersBackground extends Component {
                     <br />
                     <div className="harvestBackground">
                         Harvest Builders invited me to an online, do at your own pace boot-camp. I had six weeks to develop and test
-                        a website using Typescript that is able to display and edit pizzas by making calls to a provided database using MongoDB. 
+                        a website using Typescript that is able to display and edit pizzas by making calls to a provided database using MongoDB and GraphQL. 
                         <br />
                         <br />
                         This experience was on a different level then what I imagined. I learned how to use Typescript, MongoDB queries and mutations, JTest describe blocks, Material-ui for designing,
