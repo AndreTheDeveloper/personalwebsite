@@ -13,7 +13,10 @@ class Certificates extends Component {
                 <div className='certContainer'>
                     <div className='cert1'>
                         <div className='individualCertTitles'>
-                            Amigoscode - Getting Started with Spring Boot
+                            Amigoscode
+                        </div>
+                        <div className='secondaryCertTitle'>
+                            Getting Started with Spring Boot
                         </div>
                         <div className='imgContainer'>
                             <img className='certImg' src={amigosCert} alt='Amigoscode Certification'></img>
@@ -22,7 +25,10 @@ class Certificates extends Component {
 
                     <div className='cert2'>
                         <div className='individualCertTitles'>
-                                Harvest Builders - Samurai Pizza Cats
+                            Harvest Builders
+                        </div>
+                        <div className='secondaryCertTitle'>
+                        Samurai Pizza Cats
                         </div>
                         <div className='imgContainer'>
                             <img className='certImg' src={harvestCert} alt='Harvest Builders Certification'></img>

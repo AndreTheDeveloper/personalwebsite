@@ -23,10 +23,18 @@
     font-weight: bold;
 }
 
+.secondaryCertTitle {
+    color:midnightblue;
+    font-size: 140%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
 @media only screen and (max-width: 1350px) {
     .certContainer {
         grid-template-rows: auto;
-        grid-template-columns: 25em;
+        grid-template-columns: auto;
         grid-template-areas:
         "cert1"
         "cert2"
@@ -38,6 +46,9 @@
         grid-area: cert2;
         margin-top: 3em;
     }
+    .imgContainer {
+        
+    }
 }
 
 .imgContainer {
@@ -46,7 +57,7 @@
 }
 
 .certImg {
-    width: 500px;
-    height: 650px;
+    width: 450px;
+    height: 600px;
     border-radius: 10%;
 }
